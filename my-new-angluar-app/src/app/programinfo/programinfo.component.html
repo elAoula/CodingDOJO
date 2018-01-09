@@ -1,0 +1,25 @@
+
+    <div class="container">
+      <h2>{{programinfo.channelname}}</h2>
+      <h2>{{kanavaUrl}}</h2>
+               
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Ohjelmanid</th>
+            <th>OhjelmanNimi</th>
+            <th>AlkuAika</th>
+            <th>LopuAika</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let p of programinfo.programs">
+            <td>{{p.id}}</td>
+            <td>{{p.name}}</td>
+            <td>{{p.simple_start_time}}</td>
+            <td>{{p.simple_end_time}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+

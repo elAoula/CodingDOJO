@@ -1,0 +1,7 @@
+{
+    "/etvrecorder": {
+        "target": "https://api.elisaviihde.fi/",
+        "secure": false,
+        "loglevel": "debug"
+    }
+}
